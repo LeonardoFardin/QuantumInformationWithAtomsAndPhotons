@@ -1,4 +1,16 @@
+# Cavity Blockade: a Way to Make Photons Interact
 
+Project by Leonardo Fardin, defended during the oral exam. The overall mark (discussion + theoretical questions over all the course program) is 28.
+
+## Overview
+
+This project studies **photon blockade** in a driven Fabry-Pérot cavity containing a single two-level atom. Photons do not interact with each other in free space, but the nonlinearity of the Jaynes-Cummings ladder can make them behave as if they did: once one photon is in the cavity, a second one is no longer resonant with the laser and cannot enter.
+
+The system is simulated numerically with **QuTiP** by solving the Lindblad master equation, and compared with analytical results where they are available.
+
+## The system
+
+The atom-cavity system is described by the Jaynes-Cummings Hamiltonian plus a coherent drive
 The drive is a monochromatic laser. Moving to a frame rotating at the laser frequency makes the Hamiltonian time-independent, and cavity losses enter through the collapse operator `sqrt(κ) a`.
 
 ## What is studied
